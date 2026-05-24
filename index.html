@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Vault TSSR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="assets/custom.css?v=10">
+  <link rel="stylesheet" href="assets/sidebar-tree.css?v=6">
+</head>
+<body>
+  <div id="app">Chargement...</div>
+  <script>
+    window.$docsify = {
+      name: '💻 Vault TSSR',
+      loadSidebar: '_sidebar.md?v=12',
+      subMaxLevel: 0,
+      auto2top: true,
+      themeColor: '#a3ff12',
+      search: {
+        paths: 'auto',
+        placeholder: 'Search...',
+        noData: 'Aucun resultat',
+        depth: 6,
+        hideOtherSidebarContent: false
+      }
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="assets/sidebar-tree.js?v=6"></script>
+</body>
+</html>

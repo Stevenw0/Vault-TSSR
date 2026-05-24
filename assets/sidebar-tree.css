@@ -1,0 +1,60 @@
+.sidebar-nav li.has-children {
+  cursor: pointer;
+}
+.sidebar-nav li.has-children > a,
+.sidebar-nav li.has-children {
+  position: relative;
+}
+.sidebar-nav li.has-children > a {
+  padding-left: 1.1em;
+}
+.sidebar-nav li.has-children > a::before,
+.sidebar-nav li.has-children:not(:has(> a))::before {
+  content: "▸";
+  display: inline-block;
+  width: 1em;
+  color: var(--theme-color, #a3ff12);
+  transition: transform 120ms ease;
+}
+.sidebar-nav li.has-children:not(:has(> a))::before {
+  margin-right: .15em;
+}
+.sidebar-nav li.has-children > a::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.sidebar-nav li.has-children.is-open > a::before,
+.sidebar-nav li.has-children.is-open:not(:has(> a))::before {
+  transform: rotate(90deg);
+}
+.sidebar-nav li.is-collapsed > ul {
+  display: none;
+}
+.sidebar-nav a.active,
+.sidebar-nav li.active > a {
+  font-weight: 700;
+  color: var(--theme-color, #a3ff12) !important;
+}
+.sidebar-nav ul ul a {
+  font-size: 0.95em;
+}
+.sidebar-nav ul ul ul a {
+  font-size: 0.9em;
+}
+.sidebar-nav ul ul ul ul a {
+  font-size: 0.86em;
+}
+
+/* wiki white parcours headings */
+.sidebar-nav li.has-children,
+.sidebar-nav li.has-children > a {
+  color: var(--site-text, #f4efff) !important;
+}
+.sidebar-nav li.has-children.active,
+.sidebar-nav li.has-children.active > a,
+.sidebar-nav a.active,
+.sidebar-nav li.active > a {
+  color: var(--theme-color, #a3ff12) !important;
+}
+
