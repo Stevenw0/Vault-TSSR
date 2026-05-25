@@ -37,7 +37,7 @@ Ce site regroupe des **resumes de cours**, des **fiches pratiques** et des **com
 Utilise la barre de recherche a gauche pour chercher dans toutes les pages exportees.
 
 ---
+Link 
 
-## 🚫 Exclusions
-
-Tous les parcours de cette vault site sont exportes localement.
+Github : https://github.com/Stevenw0/Vault-TSSR
+Vault :  https://stevenw0.github.io/Vault-TSSR/#/
