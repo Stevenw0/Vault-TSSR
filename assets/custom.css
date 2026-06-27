@@ -233,10 +233,40 @@ body.sidebar-toggle-off .sidebar {
 }
 
 @media (max-width: 768px) {
-  .sidebar-toggle { left: 390px; top: 18px; }
-  body.close .sidebar-toggle,
-  body.sidebar-toggle-off .sidebar-toggle { left: 0; }
-  .markdown-section { padding: 34px 24px; }
+  /* Docsify utilise une sidebar de 300 px sur mobile. */
+  .sidebar {
+    width: 300px;
+  }
+
+  .content {
+    left: 0;
+  }
+
+  /* Menu ferme : le bouton reste visible sur le bord gauche. */
+  .sidebar-toggle {
+    left: 0;
+    top: 18px;
+    width: 34px;
+    height: 36px;
+  }
+
+  /* Sur mobile, Docsify ajoute .close pour ouvrir la sidebar. */
+  body.close .sidebar {
+    transform: translateX(300px);
+  }
+
+  body.close .sidebar-toggle {
+    left: 300px;
+    width: 34px;
+  }
+
+  .markdown-section {
+    padding: 34px 20px;
+  }
+
+  .markdown-section h1 {
+    font-size: 1.8rem;
+  }
 }
 /* force white content headings */
 #main .markdown-section h1,
