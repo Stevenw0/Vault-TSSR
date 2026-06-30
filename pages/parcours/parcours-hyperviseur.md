@@ -20,32 +20,46 @@ Construire la couche infrastructure du lab : machine, stockage, boot, hyperviseu
 
 ### 2. Comprendre et choisir l'hyperviseur
 
-7. [Proxmox](/pages/notes/proxmox.md) - Decouvrir l'hyperviseur principal du lab.
-8. [VMware ESXi](/pages/notes/vmware-esxi-hyperviseur.md) - Comparer avec un autre hyperviseur.
-9. [Réseaux VMware Workstation](/pages/notes/le-reseau-avec-vmware-workstation-pro-nat-bridged-etc.md) - Comprendre NAT, bridge et host-only.
-10. [LXC](/pages/notes/lxc.md) - Situer les conteneurs système côté hyperviseur.
-11. [Proxmox VE - pare-feu natif](/pages/notes/proxmox-ve-protegez-votre-serveur-et-les-vm-avec-le-pare-feu-natif.md) - Protéger l'hote et les VM.
+7. [Proxmox VE](/pages/notes/proxmox-ve.md) - Découvrir l'hyperviseur principal du lab.
+8. [Virtualisation](/pages/notes/virtualisation.md) - Comprendre pourquoi et comment virtualiser.
+9. [KVM](/pages/notes/kvm.md) - Situer KVM, QEMU et l'accélération matérielle.
+10. [Pile logicielle Proxmox](/pages/notes/proxmox-pile-logicielle.md) - Identifier les briques utilisées par Proxmox VE.
+11. [Fonctionnalités Proxmox](/pages/notes/proxmox-fonctionnalites.md) - Résumer les capacités attendues d'une plateforme de virtualisation.
+12. [Installation Proxmox VE](/pages/notes/installation-proxmox-ve.md) - Installer Proxmox sur un serveur.
+13. [Installation automatisée Proxmox](/pages/notes/installation-automatisee-proxmox.md) - Automatiser l'installation avec answer.toml.
+14. [Stockage Proxmox](/pages/notes/stockage-proxmox.md) - Comprendre le stockage local et réseau.
+15. [Interface web Proxmox](/pages/notes/interface-web-proxmox.md) - Naviguer dans l'interface d'administration.
+16. [Post-installation Proxmox](/pages/notes/post-installation-proxmox.md) - Configurer dépôts, mises à jour et notification.
+17. [Utilisateurs et permissions Proxmox](/pages/notes/utilisateurs-permissions-proxmox.md) - Gérer utilisateurs, groupes, rôles et ACL.
+18. [Vérification d'installation Proxmox](/pages/notes/verification-installation-proxmox.md) - Contrôler qu'un nœud est sain.
+19. [LXC avec Proxmox](/pages/notes/lxc-proxmox.md) - Situer les conteneurs système dans Proxmox.
+20. [Namespaces et cgroups LXC](/pages/notes/lxc-namespaces-cgroups.md) - Comprendre l'isolation et la gouvernance des ressources.
+21. [LXC vs Docker](/pages/notes/lxc-vs-docker.md) - Comparer conteneurs système et conteneurs applicatifs.
+22. [Conteneurs LXC privilégiés et non-privilégiés](/pages/notes/conteneurs-lxc-privilegies-non-privilegies.md) - Choisir le bon mode de sécurité.
+23. [Gestion LXC avec Proxmox](/pages/notes/gestion-lxc-proxmox.md) - Gérer templates, création, cycle de vie et configuration.
+24. [Réseau LXC Proxmox](/pages/notes/reseau-lxc-proxmox.md) - Comprendre bridge, veth, IP statique et DHCP.
+25. [Snapshots et sauvegardes LXC](/pages/notes/snapshots-sauvegardes-lxc.md) - Sauvegarder et restaurer des conteneurs.
+26. [VMware ESXi](/pages/notes/vmware-esxi-hyperviseur.md) - Comparer avec un autre hyperviseur.
+27. [Réseaux VMware Workstation](/pages/notes/le-reseau-avec-vmware-workstation-pro-nat-bridged-etc.md) - Comprendre NAT, bridge et host-only.
+28. [Proxmox VE - pare-feu natif](/pages/notes/proxmox-ve-protegez-votre-serveur-et-les-vm-avec-le-pare-feu-natif.md) - Protéger l'hote et les VM.
 
 ### 3. Construire les réseaux de lab
 
-12. [Double NAT](/pages/notes/double-nat.md) - Identifier les contraintes de réseau imbrique.
-13. [NetBIOS](/pages/notes/netbios.md) - Revoir un service réseau historique utile en lab.
-14. [PPPoE](/pages/notes/pppoe.md) - Comprendre un mode d'accès réseau.
-15. [Fibre noire](/pages/notes/fibre-noir.md) - Situer les liaisons physiques dédiées.
-16. [Atelier pfSense VMware](/pages/notes/atelier-pfsense-vmware.md) - Construire un pare-feu virtualise.
+29. [Double NAT](/pages/notes/double-nat.md) - Identifier les contraintes de réseau imbrique.
+30. [NetBIOS](/pages/notes/netbios.md) - Revoir un service réseau historique utile en lab.
+31. [PPPoE](/pages/notes/pppoe.md) - Comprendre un mode d'accès réseau.
+32. [Fibre noire](/pages/notes/fibre-noir.md) - Situer les liaisons physiques dédiées.
 
 ### 4. Sécuriser le lab virtualise
 
-17. [Fail2ban](/pages/notes/fail2ban.md) - Ajouter une protection applicative simple.
-18. [Atelier Suricata pfSense](/pages/notes/atelier-suricata-pfsense.md) - Ajouter de la detection réseau.
+33. [Fail2ban](/pages/notes/fail2ban.md) - Ajouter une protection applicative simple.
 
 ### 5. Projet integre infrastructure
 
-19. [Documentation Lab](/pages/notes/documentation-lab.md) - Centraliser l'architecture du lab.
-20. [Résumé Lab](/pages/notes/resume-lab.md) - Lire la synthèse opérationnelle.
-21. [Projet SafeGuard](/pages/notes/projet-safeguard.md) - Relier virtualisation, sécurité et documentation.
+34. [Documentation Lab](/pages/notes/documentation-lab.md) - Centraliser l'architecture du lab.
+35. [Résumé Lab](/pages/notes/resume-lab.md) - Lire la synthèse opérationnelle.
+36. [Projet SafeGuard](/pages/notes/projet-safeguard.md) - Relier virtualisation, sécurité et documentation.
 
 ## Validation
 
 Tu sais que ce parcours est acquis si tu peux préparer une machine, choisir un hyperviseur, créer un réseau de VM cohérent, sécuriser les flux de base et documenter l'architecture du lab.
-

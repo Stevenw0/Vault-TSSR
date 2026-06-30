@@ -71,16 +71,13 @@ Déployer, exposer, sécuriser et superviser des services self-hosted avec conte
 40. [Grafana Stack Docker](/pages/notes/grafana-stack-docker.md) - Déployer une stack de supervision.
 41. [Uptime-Kuma Docker](/pages/notes/uptime-kuma-docker.md) - Surveiller la disponibilité.
 42. [Patchmon Docker](/pages/notes/patchmon-docker.md) - Suivre les mises à jour.
-43. [Atelier Wazuh Docker](/pages/notes/atelier-wazuh-docker.md) - Ajouter une brique sécurité applicative.
 
 ### 8. Projet integre homelab
 
-44. [Homelab MonstroTech - Documentation TSSR](/pages/notes/homelab-monstrotech-documentation-tssr.md) - Documenter le homelab global.
-45. [Homelab Kubernetes - Documentation TSSR](/pages/notes/homelab-kubernetes-documentation-tssr.md) - Documenter la partie Kubernetes.
-46. [Homelab MonstroTech](/pages/notes/homelab-monstrotech-documentation-tssr.md) - Lire la synthèse du projet.
+43. [Homelab MonstroTech - Documentation TSSR](/pages/notes/homelab-monstrotech-documentation-tssr.md) - Documenter le homelab global.
+44. [Homelab Kubernetes - Documentation TSSR](/pages/notes/homelab-kubernetes-documentation-tssr.md) - Documenter la partie Kubernetes.
+45. [Homelab MonstroTech](/pages/notes/homelab-monstrotech-documentation-tssr.md) - Lire la synthèse du projet.
 
 ## Validation
 
 Tu sais que ce parcours est acquis si tu peux déployer un service conteneurisé, l'exposer en HTTPS, gérer son DNS/accès, le superviser et documenter son rôle dans le homelab.
-
-

@@ -133,4 +133,3 @@ docker0          DOWN           172.17.0.1/16
 > - `-c` = couleurs
 > - `a` = adresses IP
 > - Commande incontournable en administration Linux
-```

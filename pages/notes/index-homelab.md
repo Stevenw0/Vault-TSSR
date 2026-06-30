@@ -28,9 +28,6 @@ Quand l'agent ingere une note Homelab, il doit mettre a jour cet index en plus d
 - Adguard Homelab - DNS local et filtrage.
 - Migration AdGuard vers LXC Proxmox - Bascule d'AdGuard Home vers un LXC Proxmox dedie.
 - [Proxmox VE - Protegez votre serveur et les VM avec le pare-feu natif](/pages/notes/proxmox-ve-protegez-votre-serveur-et-les-vm-avec-le-pare-feu-natif.md) - Configuration du firewall Proxmox VE.
-- [Atelier pfSense VMware](/pages/notes/atelier-pfsense-vmware.md) - Lab routeur/pare-feu pfSense avec WAN NAT VMware, LAN, DMZ et filtrage.
-- [Atelier Suricata pfSense](/pages/notes/atelier-suricata-pfsense.md) - Ajout IDS/IPS Suricata au lab pfSense.
-- [Atelier Wazuh Docker](/pages/notes/atelier-wazuh-docker.md) - Deploiement Wazuh Docker comme XDR/SIEM interne au lab pfSense.
 
 ## Docker - Base et exposition
 
@@ -81,9 +78,6 @@ Quand l'agent ingere une note Homelab, il doit mettre a jour cet index en plus d
 - [Vaultwarden Docker](/pages/notes/vaultwarden-docker.md) - Gestionnaire de mots de passe.
 - [Fail2ban](/pages/notes/fail2ban.md) - Protection de services exposes.
 - Proxmox VE - pare-feu natif - Filtrage Datacenter, noeud, VM et LXC.
-- [Atelier pfSense VMware](/pages/notes/atelier-pfsense-vmware.md) - Filtrage pfSense entre WAN, LAN et DMZ dans VMware.
-- [Atelier Suricata pfSense](/pages/notes/atelier-suricata-pfsense.md) - IDS Suricata sur pfSense avec regles ET Open.
-- [Atelier Wazuh Docker](/pages/notes/atelier-wazuh-docker.md) - XDR/SIEM Wazuh en Docker cote LAN.
 - [Let's Encrypt](/pages/notes/let-s-encrypt.md) - Certificats publics.
 - [mkcert](/pages/notes/mkcert.md) - Certificats locaux.
 
@@ -123,5 +117,3 @@ La plupart des services suivent le meme modele :
 - REVIEW: verifier que les secrets Traefik, Cloudflare et tokens d'administration restent hors des notes versionnees.
 - REVIEW: maintenir la parite de configuration entre AdGuard LXC et AdGuard Docker de secours.
 - TODO: definir les regles minimales du firewall Proxmox pour l'hote, les VM et les LXC du homelab.
-
-

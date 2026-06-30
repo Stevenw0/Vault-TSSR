@@ -33,7 +33,6 @@ Cette source explique le deni de service dans un cadre de sensibilisation. Elle 
 - DoS & DDoS
 - Firewall
 - Wireshark
-- [Atelier Suricata pfSense](/pages/notes/atelier-suricata-pfsense.md)
 - Grafana Stack Docker
 - Reverse Proxy
 

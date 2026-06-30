@@ -32,26 +32,22 @@ Apprendre GLPI comme outil ITSM : installer, configurer, organiser les entités,
 ## 4. Gérer le support
 
 15. [Tickets](/pages/notes/12-tickets.md) - Comprendre le cycle de vie.
-16. [Atelier](/pages/notes/atelier.md) - Pratiquer création et traitement d'incidents.
-17. [Base de connaissances](/pages/notes/13-base-connaissances.md) - Capitaliser les resolutions.
-18. [Gabarits de tickets](/pages/notes/18-gabarits-tickets.md) - Standardiser les demandes.
+16. [Base de connaissances](/pages/notes/13-base-connaissances.md) - Capitaliser les resolutions.
+17. [Gabarits de tickets](/pages/notes/18-gabarits-tickets.md) - Standardiser les demandes.
 
 ## 5. Automatiser et exposer les demandes
 
-19. [Formulaires](/pages/notes/14-formulaires.md) - Créer des formulaires utilisateurs.
-20. [Moteur de règles](/pages/notes/15-moteur-regles.md) - Automatiser routage et actions.
+18. [Formulaires](/pages/notes/14-formulaires.md) - Créer des formulaires utilisateurs.
+19. [Moteur de règles](/pages/notes/15-moteur-regles.md) - Automatiser routage et actions.
 
 ## 6. Connecter mails, notifications et pilotage
 
-21. [Collecteur mails](/pages/notes/19-collecteur-mails.md) - Collecter des mails en tickets.
-22. [Collecteur mails Google](/pages/notes/19-1-collecteur-mails-google.md) - Variante Gmail.
-23. [Notifications](/pages/notes/20-notifications.md) - Envoyer des notifications.
-24. [Notifications Google](/pages/notes/20-1-notifications-google.md) - Variante Gmail.
-25. [Statistiques](/pages/notes/16-statistiques.md) - Piloter avec tableaux de bord.
+20. [Collecteur mails](/pages/notes/19-collecteur-mails.md) - Collecter des mails en tickets.
+21. [Collecteur mails Google](/pages/notes/19-1-collecteur-mails-google.md) - Variante Gmail.
+22. [Notifications](/pages/notes/20-notifications.md) - Envoyer des notifications.
+23. [Notifications Google](/pages/notes/20-1-notifications-google.md) - Variante Gmail.
+24. [Statistiques](/pages/notes/16-statistiques.md) - Piloter avec tableaux de bord.
 
 ## Validation
 
 Tu sais que ce parcours est acquis si tu peux monter un lab GLPI, créer l'organisation, inventorier un poste, recevoir une demande, la transformer en ticket, appliquer des règles, notifier et produire un indicateur.
-
-
-
