@@ -5,7 +5,7 @@
   <title>Vault TSSR</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <link rel="stylesheet" href="assets/custom.css?v=11">
+  <link rel="stylesheet" href="assets/custom.css?v=12">
   <link rel="stylesheet" href="assets/sidebar-tree.css?v=6">
 </head>
 <body>
@@ -30,10 +30,12 @@
       },
       search: {
         paths: 'auto',
-        placeholder: 'Search...',
-        noData: 'Aucun resultat',
+        placeholder: 'Rechercher...',
+        noData: 'Aucun résultat',
         depth: 6,
-        hideOtherSidebarContent: false
+        hideOtherSidebarContent: false,
+        namespace: 'vault-tssr',
+        maxAge: 86400000
       }
     }
   </script>

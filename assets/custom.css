@@ -108,6 +108,30 @@ body, .app-nav, .markdown-section, .content, .sidebar, .sidebar-toggle {
   color: var(--site-text);
 }
 
+.search .matching-post p {
+  color: var(--site-muted);
+  display: -webkit-box;
+  font-size: 0.86rem;
+  line-height: 1.45;
+  margin: 6px 0 12px;
+  max-height: 4.35em;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.search .matching-post em,
+.search .search-keyword {
+  color: var(--site-accent);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.search .clear-button {
+  color: var(--site-muted);
+}
+
 .markdown-section {
   max-width: 1136px;
   padding-top: 46px;
